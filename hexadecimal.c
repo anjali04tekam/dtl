@@ -9,7 +9,7 @@ int main() {
     scanf(" %c", &operator);
 
     if (operator == 'h') {
-        unsigned int hex_num1, hex_num2;
+        unsigned int hex_num1, hex_num2; // Using an unsigned int for hexadecimal operations...
         printf("Enter two hexadecimal numbers (e.g., 1A 2B): ");
         scanf("%x %x", &hex_num1, &hex_num2);
 
